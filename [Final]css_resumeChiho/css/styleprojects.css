@@ -1,0 +1,135 @@
+/* Color palette
+#FF5C21 - Main Orange
+#FF4500 - favorite Orange
+#FF8B5E - Sub Orange
+#FFE1CE - Light Orange
+#004E89 - Dark blue
+#0063AF - Blue
+#FFFBEA - Whity Orange
+#EADEDA - Whity gray
+*/
+/*global styles-----------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0	;
+}
+h1, h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400px;
+}
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+h3 {
+	margin: 0;
+a {
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+}
+}
+.content-wrap {
+	max-width: 950px;
+	margin:  0 auto;
+	padding: 60px 50px;
+	overflow: auto;
+}
+
+/* Header and footer
+------------------------ */
+header, footer {
+	text-align: center;
+	background: #FFE1CE;
+	color: #004E89;
+}
+
+/*--header--*/
+header {
+	padding-top: 30px;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+/*--footer--*/
+footer {
+	text-align: center;
+}
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+}
+
+/* Navigation
+------------------------ */
+nav {
+	text-align: left;
+	background: #FF5C21;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #FFFFFF;
+}
+nav a {
+	display: inline-block;;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+/* Design & Creativity
+------------------------ */
+.design {
+	/*background: #FF8B5E;*/
+	background: linear-gradient(rgba(255, 251, 234, 0.4), rgba(255,99,71, 0.6)),
+				url(../images/lucas-benjamin-729304-unsplash.jpg) no-repeat fixed;
+				background-size: 100%;
+}
+h3 ~ p {
+	margin: 0;
+}
+.technique-description {
+	margin-bottom: 25px;
+}
+.technique-description p:first-of-type {
+	margin-top: 0;
+}
+/*Research for Design*/
+.research {
+	background: #FF8B5E;
+	color: #FFFBEA;
+}
+h3 ~ p {
+	margin: 0;
+}
+.research-description {
+	margin-bottom: 25px;
+}
+.technique-description p:first-of-type {
+	margin-top: 0;
+}
+
+/* Media Queries
+------------------------ */
+@media (min-width: 900px){
+	.column-narrow {
+	width: 30%;
+	float: left;
+	}
+	.column-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+	}
+}
