@@ -32,7 +32,7 @@ h2 {
 	margin-top: 0;
 }
 h3 {
-	margin: 0;
+	margin-top: 0;
 a {
 	color: #FFFFFF;
 }
@@ -91,7 +91,6 @@ nav a {
 /* Design & Creativity
 ------------------------ */
 .design {
-	/*background: #FF8B5E;*/
 	background: linear-gradient(rgba(255, 251, 234, 0.4), rgba(255,99,71, 0.6)),
 				url(../images/lucas-benjamin-729304-unsplash.jpg) no-repeat fixed;
 				background-size: 100%;
@@ -105,13 +104,15 @@ h3 ~ p {
 .technique-description p:first-of-type {
 	margin-top: 0;
 }
-/*Research for Design*/
+
+/*Research for Design
+------------------------ */
 .research {
 	background: #FF8B5E;
 	color: #FFFBEA;
 }
 h3 ~ p {
-	margin: 0;
+	margin-top: 0;
 }
 .research-description {
 	margin-bottom: 25px;

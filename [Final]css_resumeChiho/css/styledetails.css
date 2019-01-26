@@ -1,0 +1,89 @@
+/*global styles-----------*/
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0;
+}
+h1, h2 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-weight: 400px;
+}
+h1 {
+	font-size: 80px;
+}
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+h3 {
+	margin-top: 0;
+}
+.content-wrap {
+	max-width: 950px;
+	margin:  0 auto;
+	padding: 60px 50px;
+	overflow: auto;
+}
+.column-wide {
+	width: 100%;
+	float: left;
+	padding-left: 20px;
+	}
+/* Header and footer
+------------------------ */
+header, footer {
+	text-align: center;
+	background: #FFE1CE;
+	color: #004E89;
+}
+
+/*--header--*/
+header {
+	padding-top: 30px;
+	position: relative;
+	padding-bottom: 30px;
+}
+
+/* Navigation
+------------------------ */
+nav {
+	text-align: left;
+	background: #FF5C21;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	color: #FFFFFF;
+}
+nav a {
+	display: inline-block;;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/*image1 Mindmap-----------*/
+.mindmap {
+	/*position: relative;*/
+	wedth:400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+/*image2 Storyboard---------*/
+.storyboard {
+	/*position: relative;*/
+	wedth:400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
