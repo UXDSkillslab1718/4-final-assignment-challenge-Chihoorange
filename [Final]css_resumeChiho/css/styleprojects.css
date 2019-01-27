@@ -109,12 +109,6 @@ nav a {
 h3 ~ p {
 	margin: 0;
 }
-.technique-description {
-	margin-bottom: 25px;
-}
-.technique-description p:first-of-type {
-	margin-top: 0;
-}
 
 /*Research for Design
 ------------------------ */
@@ -123,12 +117,6 @@ h3 ~ p {
 	color: #FFFBEA;
 }
 h3 ~ p {
-	margin-top: 0;
-}
-.research-description {
-	margin-bottom: 25px;
-}
-.technique-description p:first-of-type {
 	margin-top: 0;
 }
 

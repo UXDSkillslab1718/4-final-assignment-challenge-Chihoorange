@@ -82,9 +82,16 @@ nav a:hover {
 }
 
 /*introduction*/
-.introduction {
+.introduction-dc {
 	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255,99,71, 0.6)),
 				url(../images/designcreativity.jpg) no-repeat fixed;
+				background-size: 100%;
+				color: #FFFBEA;
+}
+
+.introduction-rd {
+	background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(255,99,71, 0.6)),
+				url(../images/reserchfordesign.jpg) no-repeat fixed;
 				background-size: 100%;
 				color: #FFFBEA;
 }
@@ -112,9 +119,7 @@ nav a:hover {
 }
 
 /*image2 Storyboard---------*/
-#work {
-	width: 485px;
-}
+
 .left {
 	/*width: 400;*/
 	height: 272px;
@@ -147,7 +152,10 @@ nav a:hover {
 	margin-bottom: 40px;
 	display: block;
 }
-.persona1 img {
-	height: 272px; 
+.contact-sub {
+	padding: 50px;
+}
+.persona img {
+	height: 342px; 
 
 }

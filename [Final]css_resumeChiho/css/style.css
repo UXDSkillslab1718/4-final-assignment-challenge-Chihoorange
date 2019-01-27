@@ -59,6 +59,14 @@ a:hover {
 	padding: 10px;
 	display: inline-block;
 }
+
+.description {
+	margin-bottom: 25px;
+}
+.description p:first-of-type {
+	margin-top: 0;
+}
+
 /* Header and footer
 ------------------------ */
 header, footer {
@@ -121,12 +129,6 @@ nav a {
 }
 h3 ~ p {
 	margin: 0;
-}
-.job-description {
-	margin-bottom: 25px;
-}
-.job-description p:first-of-type {
-	margin-top: 0;
 }
 
 /* Education
