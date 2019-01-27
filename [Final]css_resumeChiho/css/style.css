@@ -105,6 +105,10 @@ footer {
 	display: inline-block;
 }
 
+.internal-links a {
+	color: white;
+}
+
 /* Navigation
 ------------------------ */
 nav {

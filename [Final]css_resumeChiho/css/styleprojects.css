@@ -85,12 +85,11 @@ footer {
 /* Navigation
 ------------------------ */
 nav {
-	text-align: left;
-	background: #FF5C21;
+	text-align: center;
+	background: #FFE1CE;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	color: #FFFFFF;
 }
 nav a {
 	display: inline-block;;
@@ -99,6 +98,7 @@ nav a {
 	text-transform: uppercase;
 	font-weight: 700;
 }
+
 /* Design & Creativity
 ------------------------ */
 .design {
