@@ -34,10 +34,11 @@ h2 {
 h3 {
 	margin-top: 0;
 a {
-	color: #FFFFFF;
+	color: #004E89;
+	text-decoration: none;
 }
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 }
 .content-wrap {
